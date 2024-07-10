@@ -47,6 +47,16 @@ body, input, textarea, button {
   margin-top: 16px;
 }
 
+.table-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.autocomplete-buttons {
+  display: flex;
+  flex-direction: row;
+}
 
 @media (max-width: 768px) {
   .header {
